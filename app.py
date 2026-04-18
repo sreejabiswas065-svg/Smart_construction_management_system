@@ -7,16 +7,12 @@ Original file is located at
     https://colab.research.google.com/drive/1Zp-La_ogpfV3Ye-TTW3v5IJPU-LVum7o
 """
 
-pip install streamlit
-
 import streamlit as st
 import pandas as pd
 import numpy as np
 
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score, mean_absolute_error
-
-pip install catboost
 
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
